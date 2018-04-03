@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Serien */
+
+/* Listen */
+
+.series .play-episode, .container-bg-opacity {
+	position:absolute;
+	left:0;
+	top:0;
+}
+.series h1 {
+	margin: 0;
+}
+.series .episode-description h3, .series .infos h3 {
+	margin-top:0;
+}
+.series .infos {
+	text-align:center;
+}
+.series .contact {
+	margin-top:20px;
+}
+.series .infos ul {
+	margin-top:10px;
+}
+.series figcaption .misc, .academy figcaption .misc {
+	margin-top:15px;
+	clear:right;
+}
+.series figure.series-posterframe {
+	padding-left:5px;
+}
+.series div.series-posterframe {
+	padding-right:5px;
+}
+body.series .series-posterframe > div {
+    padding: 10px 5px 1px 5px;
+    margin-bottom:20px;
+}
+.series .current-episode h2 {
+	text-align:left;
+}
+.series-posterframe .pull-right {
+    display: inline-block;
+    margin-right:10px;
+}
+@media (min-width: 768px) {
+    .series figure.series-posterframe {
+	    padding-left:0px;
+    }
+    .series div.series-posterframe {
+	    padding-right:0px;
+    }
+    body.series .series-posterframe > div {
+        padding: 0 0 0 15px;
+        margin-bottom:0;
+    }
+}
